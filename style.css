@@ -9,18 +9,18 @@ body
 {
     width: 90%;
     margin-left:auto;
-        margin-right:auto;
+    margin-right:auto;
 }
 a:link {
-    color: rgb(251, 255, 0);
+    color: red;
   }
 a:visited
 {
-    color:rgb(129, 5, 5)
+    color:green
 }
 a:hover
 {
-    color:rgb(0, 0, 0)
+    color:black
 }
 #main {
     background: url("https://github.com/bastien-venturi/progressive-enhancement/blob/main/Two_paddy_fields_in_Khulna,_Bangladesh.JPG?raw=true") no-repeat ;
@@ -37,7 +37,6 @@ a:hover
     font-style: italic;
     font-size: 160%;
     border: 3px;
-    
     padding-inline: 30px;
     background-color: grey;
     margin-left: 80px;
@@ -51,17 +50,35 @@ a:hover
 {
     border-left: white solid;
 }
-
-
-
+span.good
+{
+    color: red;
+    text-transform:capitalize ;
+}
+span.bad
+{
+    color: red;
+    text-transform:capitalize ;
+}
 
 table
 {
     border-bottom: 1px dotted black;
     border-left: 1px dashed black;
+    
 }
 td
 {
     border-top: 1px dotted black;
     border-right: 1px dashed black;
+    
+}
+
+table tr:nth-child(odd)
+{
+    background-color:grey;
+}
+table tr:nth-child(even)
+{
+    background-color:white;
 }
