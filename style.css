@@ -37,7 +37,7 @@ a:hover
     font-style: italic;
     font-size: 160%;
     border: 3px;
-    border-left: red;
+    
     padding-inline: 30px;
     background-color: grey;
     margin-left: 80px;
@@ -45,7 +45,11 @@ a:hover
 }
 .villager
 {
-
+    border-left: red solid;
+}
+.farmer
+{
+    border-left: white solid;
 }
 
 
